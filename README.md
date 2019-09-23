@@ -11,8 +11,12 @@ For this lab, we will be experimenting with a variety of sensors, sending the da
 ## Part A.  Writing to the Serial Monitor
  
 **a. Based on the readings from the serial monitor, what is the range of the analog values being read?**
+
+The analog values range from 358 to 1023.  
  
 **b. How many bits of resolution does the analog to digital converter (ADC) on the Arduino have?**
+
+The ADC on the Arduino has 10 bits of resolution (it goes up to 1023.)
 
 ## Part B. RGB LED
 
