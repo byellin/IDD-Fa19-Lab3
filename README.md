@@ -28,7 +28,12 @@ The ADC on the Arduino has 10 bits of resolution (it goes up to 1023.)
 
 **a. What voltage values do you see from your force sensor?**
 
+Minimum value: 305
+Maximum value: 1023
+
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**
+
+Looking at the serial plotter, the relationship seems to be logistic. 
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
 
