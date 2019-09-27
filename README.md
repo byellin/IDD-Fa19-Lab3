@@ -63,13 +63,23 @@ Looking at the serial plotter, the relationship is logistic.
 
 **a. Does it matter what actions are assigned to which state? Why?**
 
+In order for the Arduino to store the value computed, it needs to clear the memory, then write to the memory, then read the memory. If the memory was read before it was written to, it would always be empty. 
+
 **b. Why is the code here all in the setup() functions and not in the loop() functions?**
+
+We only need to write the value to memory one time, so it does not have to be inside of loop. 
 
 **c. How many byte-sized data samples can you store on the Atmega328?**
 
+You can store 1024 bytes on the Atmega328. 
+
 **d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**
 
+If you call analogRead on Arduino analog pins it will return a byte-sized analog reading of the pin. 
+
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**
+
+To store data larger than one byte, you can use multiple memory addresses to refer to a particular value. 
 
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
 
