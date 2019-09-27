@@ -87,6 +87,8 @@ To store data larger than one byte, you can use multiple memory addresses to ref
  
 **a. Insert here a copy of your final state diagram.**
 
+![](https://github.com/byellin/IDD-Fa19-Lab3/blob/master/IMG_6948.JPG)
+
 ### 3. Create your data logger!
  
 **a. Record and upload a short demo video of your logger in action.**
