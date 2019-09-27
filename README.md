@@ -92,3 +92,5 @@ To store data larger than one byte, you can use multiple memory addresses to ref
 ### 3. Create your data logger!
  
 **a. Record and upload a short demo video of your logger in action.**
+
+![](https://github.com/byellin/Developing-and-Designing-Interactive-Devices/blob/2019Fall/IMG_6947.MOV)
