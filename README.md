@@ -65,7 +65,8 @@ Looking at the serial plotter, the relationship is logistic.
 
 In order for the Arduino to store the value computed, it needs to clear the memory, then write to the memory, then read the memory. If the memory was read before it was written to, it would always be empty. 
 
-**b. Why is the code here all in the setup() functions and not in the loop() functions?**
+**b. Why is the 
+here all in the setup() functions and not in the loop() functions?**
 
 We only need to write the value to memory one time, so it does not have to be inside of loop. 
 
@@ -82,6 +83,8 @@ If you call analogRead on Arduino analog pins it will return a byte-sized analog
 To store data larger than one byte, you can use multiple memory addresses to refer to a particular value. 
 
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
+
+![Modified Code](https://github.com/byellin/Developing-and-Designing-Interactive-Devices/blob/2019Fall/Part_E.ino)
 
 ### 2. Design your logger
  
