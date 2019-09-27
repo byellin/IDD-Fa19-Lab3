@@ -33,22 +33,29 @@ Maximum value: 1023
 
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**
 
-Looking at the serial plotter, the relationship seems to be logistic. 
+Looking at the serial plotter, the relationship is logistic. 
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
 
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
 
+For the short flex sensor, the range of resistances are between 25 and 100 kilo-ohms. For the photo cell, the range of resistances is between 5 and kilo-ohms when it is bright and 200 kilo-ohms when it is dark. The linear softspot resistor ranges from 10 kilo-ohms and 100,000 kilo-ohms. 
+
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
+
+Looking at the serial plotter, the relationship is logistic. 
 
 ### 2. Accelerometer
  
 **a. Include your accelerometer read-out code in your write-up.**
 
+[Insert screenshot in folder]
 
 ## Optional. Graphic Display
 
 **Take a picture of your screen working insert it here!**
+
+![](https://github.com/byellin/IDD-Fa19-Lab3/blob/master/Graphic%20Display.JPG)
 
 ## Part D. Logging values to the EEPROM and reading them back
  
