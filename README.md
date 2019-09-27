@@ -49,7 +49,7 @@ Looking at the serial plotter, the relationship is logistic.
  
 **a. Include your accelerometer read-out code in your write-up.**
 
-[Insert screenshot in folder]
+![](https://github.com/byellin/Developing-and-Designing-Interactive-Devices/blob/2019Fall/Screen%20Shot%202019-09-26%20at%201.49.13%20PM.png)
 
 ## Optional. Graphic Display
 
